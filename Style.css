@@ -1,0 +1,577 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    max-width: auto;
+    margin: 0 auto;
+    background-color: #000000fd;
+    
+    
+    background-repeat: no-repeat;
+    
+
+}
+
+/* header */
+
+header {
+    background-image: url(IMG/cidadeai.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top:0;
+    
+    
+    
+}
+
+
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-family: garamond;
+    border-radius: 10px;
+    background-color: #00000063;
+    box-shadow: 2px 2px 60px #999;
+    
+    
+    
+
+}
+
+header span {
+    color: rgb(221, 151, 21);
+    font-size: 40px;
+}
+
+header .navbar{
+    
+    display: flex;
+   gap: 20px;
+}
+
+header .navbar li a{
+    padding:10px;
+    color:#ffffff;
+    font-size: 20px;
+    font-family: monospace;
+    margin-right: 1px;
+    
+}
+
+img {
+    
+    width: 150px;
+    height: 100px;
+    margin-top: 2px;
+    margin-left: 3px;
+    
+    
+}
+
+.imagem1 {
+    transition: all 2s;
+    cursor: pointer;
+    margin-left: -160px;
+
+}
+
+.imagem1:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+
+}
+
+/* apresentação */
+
+.section-div {
+    background-color: #523013;
+    opacity:0.6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+    border-radius:30px;
+
+
+}
+
+.section-div div{
+    margin-top: 40px;
+    align-self: start;
+    display: grid;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.section-div div h2{
+    font-family: monospace;
+    font-weight: 600;
+    font-size:25px;
+    color: rgb(255, 255, 255);
+}
+
+.section-div div p{
+    font-family: monospace;
+    font-weight: 600;
+    font-size:18px;
+    color: rgb(248, 247, 247);
+    text-align: justify;
+}
+
+.section-div div a{
+    justify-self: start;
+    color: rgb(255, 251, 251);
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 254, 254);
+    font-family: monospace;
+    
+}
+
+.section-div video{
+    width: 400px;
+    height: 300px;
+    max-width: 100%;
+    margin-left: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.section-div video:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*foto 3*/
+
+.section2-div{
+    background-image: url(IMG/papel\ de\ parede.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+}
+
+.section2-div div{
+    margin-top: 12px;
+    align-self: start;
+    display: grid;
+    gap: 30px;
+    font-size: 20px;
+    
+    
+    
+}
+
+.section2-div div img{
+    width: 400px;
+    height: 280px;
+    max-width: 100%;
+    margin-left: 420px;
+    border-radius: 500px;
+}
+
+/* nossa proposta*/
+
+.section1-div{
+    background-color: #523013;
+    opacity:0.6;
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+    border-radius:30px;
+
+}
+
+.section1-div div{
+    margin-top: 12px;
+    align-self: start;
+    display: grid;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.section1-div div h1{
+    font-family: monospace;
+    font-weight: 600;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    
+}
+
+.section1-div div h2{
+    font-family: monospace;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    font-size:25px;
+    margin-left: 0px;
+    margin-top: 30px;
+
+}
+
+.section1-div div p{
+    font-family: monospace;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-left: 30px;
+    text-indent: 50px;
+}
+
+/*foto 2*/
+
+.section3-div{
+    background-image: url(IMG/papel\ de\ parede.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.6;
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+}
+
+.section3-div div{
+    margin-top: 12px;
+    align-self: start;
+    display: grid;
+    gap: 30px;
+    font-size: 20px;
+    
+}
+
+.section3-div div img{
+    width: 400px;
+    height: 280px;
+    max-width: 100%;
+    margin-left: 420px;
+    border-radius: 500px;
+}
+
+/*localização*/
+
+.section4-div{
+    background-color: #523013;
+    opacity:0.6;
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+    height:600px;
+    border-radius:30px;
+}
+
+.section4-div div{
+    margin-top: 7px;
+    align-self: start;
+    display: grid;
+    gap: 30px;
+    
+}
+
+.section4-div div p{
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.section4-div div .loc{
+    width:450px;
+    height:350px;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 390px;
+    border-radius: 30px;
+
+}
+
+.section4-div div h2{
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 254, 254);
+    margin-top: 10px;
+    margin-left: 530px;
+}
+
+/* bottom wpp instagram*/
+.float{
+	position:fixed;
+	width:40px;
+	height:40px;
+	bottom:40px;
+	right:20px;
+	background-color:#000000;
+	color:#a56a1dfd;
+	border-radius:50px;
+	text-align:center;
+  font-size:25px;
+	box-shadow: 2px 2px 30px #fffefe;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:8px;
+}
+
+.insta{
+    position:fixed;
+	width:40px;
+	height:40px;
+	bottom:40px;
+	right:80px;
+	background-color:#080808;
+	color:#a56a1dfd;
+	border-radius:30px;
+	text-align:center;
+  font-size:10px;
+	box-shadow: 2px 2px 30px #999;
+  z-index:100;
+}
+
+.my-insta{
+    margin-top: 10px;
+    
+}
+
+/*cardapio*/
+
+.sectionp1-div{
+    background-color: #523013;
+    opacity:0.6;
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    
+}
+
+
+.sectionp1-div div{
+    margin-top: 3px;
+    align-self: start;
+    display: grid;
+    gap: 30px;
+    font-size: 15px;
+}
+
+.sectionp1-div div h1{
+    font-family: monospace;
+    font-weight: 600;
+    color: rgb(253, 252, 252);
+    text-align: center;
+    position: relative;
+    
+}
+/* seção do cardapio*/
+.cardapio{
+    background-color:rgba(230, 102, 102, 0.336) ;
+    padding: 10px;
+    gap: 60px;
+    
+}
+
+/* opcão do cardapio*/
+.secp1-div{
+    
+    background-image: url(IMG/Backcityai.png);
+    opacity: 0.6;
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+    border-radius: 60px;
+    transition: all 1.5s;
+    cursor: pointer;
+
+}
+
+.secp1-div:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.secp1-div div{
+    margin-top: 9px;
+    align-self: start;
+    display: grid;
+    gap: 30px;
+    font-size: 20px;
+    
+}
+
+.secp1-div div h1{
+    color: #fffefe;
+    font-family: monospace;
+    font-size: 25px;
+    margin-left: 35%;
+    text-align: left;
+    
+    
+    
+}
+
+
+
+.secp1-div div h2{
+    color: #fffefe;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: center;
+    text-indent: 20px;
+    box-sizing: border-box;
+    background-color: #080808c9;
+    border-radius: 10px;
+    width: 400px;
+    height: 110px;
+    
+    
+    
+}
+
+
+
+.secp1-div div h3{
+    color: #fffefe;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 30px;
+    
+    
+}
+
+.secp1-div div img{
+    width: 250px;
+    height: 200px;
+    max-width: 100%;
+    margin-left: 30px;
+    border-radius: 500px;
+}
+
+/**/
+
+.sec1p1-div{
+    background-image: url(IMG/backai.png);
+    opacity: 0.6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+    border-radius: 60px;
+    transition: all 1.5s;
+    cursor: pointer;
+}
+
+.sec1p1-div:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.sec1p1-div div{
+    margin-top: 9px;
+    align-self: start;
+    display: grid;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.sec1p1-div div h1{
+    color: #fffefe;
+    font-family: monospace;
+    font-size: 25px;
+    margin-left: 35%;
+    text-align: left;
+}
+
+.sec1p1-div div h2{
+    color: #fffefe;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 70px;
+    text-indent: 20px;
+    box-sizing: border-box;
+    background-color: #080808c9;
+    border-radius: 10px;
+    width: 400px;
+    height: 110px;
+}
+
+.sec1p1-div div h3{
+    color: #fffefe;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.sec1p1-div div img{
+    width: 300px;
+    height: 180px;
+    max-width: 100%;
+    margin-left: 80px;
+    border-radius: 100px;
+}
+
+/**/
+
+.sec2p1-div{
+    display: flex;
+    align-items:center;
+    height: 260px;
+    background-color: #523013;
+    opacity: 0.6;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    gap: 60px;
+    padding: 15px;
+    
+}
+
+.sec2p1-div div h1{
+    color: rgb(255, 254, 254);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
